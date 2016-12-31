@@ -16,8 +16,5 @@ react native sandbox (targeting android first)
 
  `react-native start --port:8088`
 
- this doesn't seem to help at all:
-
- `adb reverse tcp:8088 tcp:8088`
-
+ * this doesn't seem to help at all: `adb reverse tcp:8088 tcp:8088`
  * don't forget to turn off firewall
