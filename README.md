@@ -7,7 +7,9 @@ react native sandbox (targeting android first)
 
 3. use sumit6b's solution here: https://github.com/facebook/react-native/issues/9336
 
-`node node_modules/react-native/local-cli/cli.js bundle --platform android --dev true --reset-cache --entry-file index.android.js --bundle-output ./android/app/build/intermediates/assets/debug/index.android.bundle --assets-dest ./android/app/build/intermediates/res/merged/debug`
+`
+node node_modules/react-native/local-cli/cli.js bundle --platform android --dev true --reset-cache --entry-file index.android.js --bundle-output ./android/app/build/intermediates/assets/debug/index.android.bundle --assets-dest ./android/app/build/intermediates/res/merged/debug
+`
 
 then either `cd android && ./gradlew installDebug `
 or `react-native run-android ` 
